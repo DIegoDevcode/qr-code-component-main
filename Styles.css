@@ -3,4 +3,27 @@
     --Light-gray: hsl(212, 45%, 89%);
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
+    --medium:Font size (paragraph): 15px
+}
+
+body{
+    font-size: 62.5%;
+    font-size: var(--medium);
+    font-family: 'Outfit', sans-serif;
+}
+
+main img{
+    width: 375px;
+}
+.cuerpo h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+.cuerpo p{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--Grayish-blue);
 }
