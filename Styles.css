@@ -60,6 +60,14 @@ main img{
     text-decoration: none;
 }
 
-@media screen and (min-width: 412px) and (max-width:1024px){
-
+@media screen and (min-width: 412px) and (max-width:1534px){
+    .card{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:370px;
+        border: 1px solid lightgray;
+        box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+        border-radius:15px;  
+    }
 }
