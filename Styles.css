@@ -41,7 +41,8 @@ main img{
     width:370px;
     border: 1px solid lightgray;
     box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius:15px;  
+    border-radius:15px;
+    padding-left: 557px;
 }
   .cuerpo{
     padding: 10px;
@@ -49,11 +50,12 @@ main img{
 
   .container{
     margin-bottom: 10px;
+    padding-bottom: 50px;
   }
 
 .attribution{
     font-size: var(--medium);
-    bottom: 5px;
+    padding-bottom: 5px;
     color: black;
 }
 .attribution a{
@@ -64,7 +66,7 @@ main img{
     .card{
         display:flex;
         flex-direction:column;
-        justify-content:center;
+        place-content: center;
         width:370px;
         border: 1px solid lightgray;
         box-shadow: 2px 2px 8px 4px #d3d3d3d1;
