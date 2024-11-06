@@ -1,76 +1,70 @@
 :root{
     --White: hsl(0, 0%, 100%);
-    --Light-gray: hsl(212, 45%, 89%);
-    --Grayish-blue: hsl(220, 15%, 55%);
-    --Dark-blue: hsl(218, 44%, 22%);
-    --medium:Font size (paragraph): 15px
+    --Slate-black: #1F314F;
+    --Slate-gray: #68778D;
+    --Slate-light: #D5E1EF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    font-size: 62.5%;
-    font-size: var(--medium);
     font-family: 'Outfit', sans-serif;
-    background-color: var(--Light-gray);
+    background-color: var(--Slate-light);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
 }
 
 main{
     background-color: var(--White);
 }
-main img{
-    width: 330px;
-    padding: 8px;
+.card{
+    width:320px;
+    height: 499px;
+    border: 1px solid lightgray;
     border-radius:15px;  
 }
-.cuerpo h3{
-    font-size: 28px;
-    text-align: center;
-    font-weight: 700;
-    color: var(--Dark-blue);
-}
-.cuerpo p{
-    font-size: var(--medium);
-    text-align: center;
-    font-weight: 400;
-    color: var(--Grayish-blue);
-}
 
-.card{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    width:370px;
-    border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-    border-radius:15px;
-    padding-left: 657px;
-    
+.card img{
+    width: 288px;
+    height: 288px;
+    border-radius:15px;  
 }
-  .cuerpo{
+.body{
     padding: 10px;
   }
 
-  .container{
-    margin-bottom: 10px;
-    padding-bottom: 50px;
-  }
-
-.attribution{
-    font-size: var(--medium);
-    padding-bottom: 5px;
-    color: black;
+.body .title-p{
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--Slate-black);
+    width: 256px;
+    height: 52px;
 }
-.attribution a{
-    text-decoration: none;
+.body p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--Slate-gray);
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    width: 256px;
+    height: 63px;
 }
 
-@media screen and (min-width: 412px) and (max-width:1534px){
-    .card{
-        display:flex;
-        flex-direction:column;
-        place-content: center;
-        width:370px;
-        border: 1px solid lightgray;
-        box-shadow: 2px 2px 8px 4px #d3d3d3d1;
-        border-radius:15px;  
-    }
+
+
+.content{
+    padding: 20px;
+    width: 288px;
+    height: 131px;
 }
